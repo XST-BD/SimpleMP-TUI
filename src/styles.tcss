@@ -1,0 +1,60 @@
+VerticalScroll {
+    min-height: 100vh;
+    scrollbar-size: 1 1;
+    align: center middle;
+}
+
+Container {
+    padding-top: 1;
+    height: auto;
+    align: center middle;
+}
+
+Horizontal {
+    height: auto;
+    align: center middle;
+}
+
+Label {
+    padding-left: 1;
+}
+
+Input {
+    width: 1fr;
+}
+
+.info {
+    padding-left: 0;
+    text-align: center;
+}
+
+.switch_container {
+    width: 12.5;
+}
+
+Switch {
+    width: 1fr;
+}
+
+#audio_container {
+    display: none;
+}
+
+RadioSet {
+    max-height: 6;
+}
+
+RadioSet.hidden {
+    display: none;
+}
+
+#thread_type {
+    max-height: 5;
+}
+
+#button_container {
+    layout: horizontal;
+    align-horizontal: center;
+    margin-top: 1;
+    margin-bottom: 1;
+}
