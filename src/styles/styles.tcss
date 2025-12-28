@@ -5,7 +5,6 @@ VerticalScroll {
 }
 
 Container {
-    padding-top: 1;
     height: auto;
     align: center middle;
 }
@@ -29,14 +28,14 @@ Input {
 }
 
 .switch_container {
-    width: 12.5;
+    width: 13;
 }
 
 Switch {
     width: 1fr;
 }
 
-#audio_container {
+#audio_container, .video_container, #cppt_container, #cpp_container {
     display: none;
 }
 
